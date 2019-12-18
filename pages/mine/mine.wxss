@@ -1,0 +1,8 @@
+/* pages/firstPage/firstPage.wxss */
+.boxOne{
+  display: flex;
+  margin: 10px;
+}
+.page_T{
+  margin: 10px;
+}

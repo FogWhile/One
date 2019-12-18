@@ -1,0 +1,14 @@
+/* pages/choose/choose.wxss */
+.text_A{
+  text-align: center;
+}
+.boxOne{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+.hover{
+    opacity: 0.9;
+    background:rgb(160, 160, 160);
+}

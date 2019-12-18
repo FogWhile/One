@@ -1,0 +1,12 @@
+/* pages/add/add.wxss */
+.btns {
+  flex: 1;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  background-color:whitesmoke;
+}
+.hover{
+    opacity: 0.9;
+    background:rgb(160, 160, 160);
+}

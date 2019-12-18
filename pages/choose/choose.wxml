@@ -1,0 +1,18 @@
+<!--pages/choose/choose.wxml-->
+<view class="page">
+ <view class="text_A">
+  <text>点击图片设置绿植种类</text> 
+ </view>
+<view class="boxOne" hover-class='hover'>
+ <image style="width: 50px; height: 50px;" mode="aspectFill" src="../../images/001.png" bindtap="storageOne"></image>
+ <text>多肉</text>
+</view>
+<view class="boxOne" hover-class='hover'>
+ <image style="width: 50px; height: 50px;" mode="aspectFill" src="../../images/002.png" bindtap="storageTwo"></image>
+ <text>芦荟</text>
+</view>
+<view class="boxOne" hover-class='hover'>
+ <image style="width: 50px; height: 50px;" mode="aspectFill" src="../../images/003.png" bindtap="storage"></image>
+ <text>仙人掌</text>
+</view>
+</view>

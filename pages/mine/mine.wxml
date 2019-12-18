@@ -1,0 +1,21 @@
+<!--pages/mine/mine.wxml-->
+<mp-cells ext-class="my-cells">
+    <mp-cell link url="../choose/choose" link hover value="更改绿植种类" footer="→">
+    </mp-cell>
+</mp-cells>
+<view class="boxOne"> 
+ <image style="width: 50px; height: 50px;" mode="aspectFill" src="{{src}}"></image>
+ <text>{{name}}</text>
+</view>
+<view class="page_T">
+ <text>绿植适宜温度(℃):{{tem}}</text>
+</view>
+<view class="page_T">
+ <text>浇水:{{water}}</text>
+</view>
+<view class="page_T">
+ <text>光照:{{sun}}</text>
+</view>
+<view class="page_T">
+ <text>小提示:{{tips}}</text>
+</view>
